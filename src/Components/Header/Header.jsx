@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
-import logo from '../images/Logo.svg'
+// import logo from '../images/Logo.svg'
+import logo from '../../images/Logo.svg';
 
 const Header = () => {
     return (
@@ -8,8 +9,8 @@ const Header = () => {
             <img src={logo} alt="" srcset="" />
 
             <div>
-                <a href="/shop">shop</a>
-                <a href="/order">order</a>
+                <a href="/shop">Shop</a>
+                <a href="/order">Order</a>
                 <a href="/inventory">Inventory</a>
                 <a href="/login">Login</a>
             </div>
@@ -19,3 +20,5 @@ const Header = () => {
 };
 
 export default Header;
+
+
